@@ -1,0 +1,393 @@
+
+body{
+    font-family: Verdana,Arial,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+    display: block;
+    overflow: hidden;
+}
+.l1,.l2,.l3,.l4{
+    display: flex;
+    float: left;
+    background: none;
+    gap: 40px ;
+}
+
+
+a{
+    align-self: center;
+    display: block;
+    text-align: left;
+    padding: 15px -1px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    text-decoration:underline;
+    background: none;
+
+}
+
+.menu{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo{
+    position: relative;
+    top: -115px;
+    background-color: black;
+    width: 15%;
+}
+
+.cr7img{
+    position: relative;
+    top: -84px;
+    width: 100%;
+}
+
+h2{
+    position: relative;
+    top: -80px;
+    text-align: center;
+    font-size: 63px;
+    font-weight: 700;
+}
+
+p{
+    margin: 100px;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    line-height: 2.1rem;
+    text-transform: none;
+}
+
+.saiba{
+    text-align: center;
+    color: black;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    line-height: 2.1rem;
+    text-transform: none;
+}
+
+.produtos{
+    display: flex;
+}
+
+.shampoo{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+    
+    
+    
+}
+
+li{
+    margin-bottom: 80px;
+    float: left;
+    margin-left: 100px;
+    background: linear-gradient(rgb(0, 0, 0),rgb(23, 23, 163),rgb(3, 5, 26));
+    background-size: 100% 74%; 
+    background-repeat: no-repeat;
+    transition: 0.2s ease-in-out;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+
+h3{
+    white-space: pre-line;
+    letter-spacing: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+.text-produtos{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.mentol{
+    color: black;
+    white-space: pre-line;
+    letter-spacing: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: 100;
+    transition: 0.2s ease-in-out;
+}
+
+.mentol:hover{
+    transform: scale(1.1); 
+}
+
+.antiqueda-men{
+    color: black;
+    white-space: pre-line;
+    letter-spacing: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: 100;
+    transition: 0.2s ease-in-out;
+}
+
+.antiqueda-men:hover{
+    transform: scale(1.1);
+}
+
+
+.anti_controle{
+    color: black;
+    white-space: pre-line;
+    letter-spacing: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: 100;
+    transition: 0.2s ease-in-out;
+}
+
+.anti_controle:hover{
+    transform: scale(1.1);
+}
+
+.anti_coceira{
+    color: black;
+    white-space: pre-line;
+    letter-spacing: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: 100;
+    transition: 0.2s ease-in-out;
+}
+
+.anti_coceira:hover{
+    transform: scale(1.1);
+}
+
+.dois_em{
+    color: black;
+    white-space: pre-line;
+    letter-spacing: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: 100;
+    transition: 0.2s ease-in-out;
+    
+}
+
+.dois_em:hover{
+    transform: scale(1.1);
+}
+
+.limpeza_profunda{
+    color: black;
+    white-space: pre-line;
+    letter-spacing: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: 100;
+    transition: 0.2s ease-in-out;
+}
+
+.limpeza_profunda:hover{
+    transform: scale(1.1);
+}
+
+.detox{
+    color: black;
+    white-space: pre-line;
+    letter-spacing: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: 100;
+    transition: 0.2s ease-in-out;
+}
+
+.detox:hover{
+    transform: scale(1.1);
+}
+
+
+.h-two{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-style: normal;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 5.2rem;
+}
+
+.p-two{
+    margin: 125px;
+    margin-bottom: 3.2rem;
+    
+}
+
+
+.h-tree{
+    
+    color: #000;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 2.4rem;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    line-height: 2.68rem;
+    text-align: center;
+    margin-top: 210px;
+}
+
+.veja{
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+button{
+    font-style: normal;
+    position: relative;
+    top: -45px;
+    left: 41%;
+    font-size: 1.0rem;
+    border: 1px solid black;
+    border-radius: 22.5px;
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    line-height: 2.1rem;
+    min-width: 216px;
+    padding: 10px 10;
+    background-color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.recomenda{
+
+    background-color: black;
+
+}
+
+.h-four{
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 2.4rem;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    line-height: 2.68rem;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+
+}
+
+.recomenda{
+    background-color: black;
+}
+.clear-title{
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    top: 25px;
+    color:white
+}
+
+.list-one{
+    position: relative;
+    top: 40px;
+    background: none;
+    background-color: white;
+    width: 24.8%;
+    box-shadow: none;
+    
+    
+}
+
+
+
+.h-image-one{
+    font-size: 24px;
+    letter-spacing: none;
+    font-weight: 800;
+}
+
+.image-p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    line-height: 2.1rem;
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    transition: none;
+}
+
+
+.roda-link{
+    width: 40%;
+    background: none;
+    margin-bottom: 25px;
+}
+
+.roda-link:hover{
+    transform: none;
+}
+
+.rodape{
+    position: relative;
+    top: -15px;
+    height: 0px;
+}
+
+.logo{
+    background: none;
+}
+
+.midias{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 89%;
+}
+
+.img-logo{
+    position: relative;
+    top: 110px;
+    width: 32px;
+    height: 32px;
+    
+}
+
+.topo{
+    color: black;
+    position: relative;
+    top: -178vh;
+    margin-left: 45%;
+    
+}
